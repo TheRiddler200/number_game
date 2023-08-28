@@ -1,0 +1,28 @@
+
+body {
+    background-color: lightseagreen;
+}
+
+
+.grow {
+    color: purple;
+}
+
+.number{
+    outline:  2px solid black;
+    text-align: center;
+    padding: 15px;
+    width: 15rem;
+    margin: 15px;
+}
+
+
+.correctNumber{
+    outline:  2px solid green;
+    text-align: center;
+    padding: 15px;
+    width: 20%;
+    margin: 15px;
+    color: green;
+
+}
