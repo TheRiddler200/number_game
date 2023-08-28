@@ -34,13 +34,17 @@ h1{
     color: purple;
 }
 
-.number{
-    outline:  2px solid black;
+.number {
+    outline: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
     text-align: center;
     padding: 15px;
     width: 15rem;
-    margin: 15px;
+    margin: 15px auto; /* Center horizontally */
 }
+
 
 
 .correctNumber{
@@ -54,7 +58,19 @@ h1{
 }
 
 
+.btn-again{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 25px;
+    width: 8rem;
+    color: red;
+    margin: 23px auto;
+
+}
+
 .right {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center; /* Center items vertically in the flex container */
@@ -63,7 +79,8 @@ h1{
 
 .left {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .check {
